@@ -1,0 +1,472 @@
+// Universal
+
+// Button
+.btn-pesan {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+.btn {
+  background-color: #28c76f;
+  border-radius: 50px;
+  border: none;
+}
+
+.follow {
+  background-color: #ccc;
+  color: #000;
+}
+// End Button
+
+// Navbar
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+}
+
+// Akhir Navbar
+
+// Jumbotron
+.jumbotron {
+  background-image: url(https://belajarkoding.com/images/overlay.svg), linear-gradient(45deg, #007bff, #006fe6);
+  background-size: cover;
+  height: 480px;
+  color: #fff;
+
+  h1 {
+    padding-top: 180px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+  }
+}
+
+// Jumbotron-artikel
+.jumbotron-article {
+  background-image: url(https://belajarkoding.com/images/overlay.svg), linear-gradient(45deg, #007bff, #006fe6);
+  background-size: cover;
+  height: 380px;
+  color: #fff;
+
+  h1 {
+    padding-top: 120px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 62px;
+  }
+}
+// Akhir Jumbotron artikel
+// css waves
+.wave {
+  margin-top: 150px;
+}
+svg.wave {
+  position: relative;
+  bottom: -1px;
+  left: 0;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.a {
+  fill: none;
+}
+.b {
+  clip-path: url(#a);
+}
+.c,
+.d {
+  fill: #f9f9fc;
+}
+.d {
+  opacity: 0.5;
+  isolation: isolate;
+}
+
+// end css waves
+
+// Waves article
+.wafe-article {
+  margin-top: 100px;
+}
+svg.wafe-article {
+  position: relative;
+  bottom: -1px;
+  left: 0;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.a {
+  fill: none;
+}
+.b {
+  clip-path: url(#a);
+}
+.c,
+.d {
+  fill: #f9f9fc;
+}
+.d {
+  opacity: 0.5;
+  isolation: isolate;
+}
+
+// end css waves
+
+// End Waves Article
+
+// End Jumbotron
+
+// Section Era Digital
+.eradigital {
+  margin-top: 120px;
+
+  h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #252525;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: grey;
+    font-size: 18px;
+  }
+}
+// End Section Era Digital
+
+// Section Be adaptable
+.adaptable {
+  margin-top: 40px;
+
+  h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #252525;
+    margin-top: 14px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: grey;
+  }
+}
+// End Section Be Adaptable
+
+// My Skill
+.myskill {
+  min-height: 400px;
+  padding-top: 60px;
+
+  h4 {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #252525;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  img {
+    width: 125px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  .item-skill {
+    margin-bottom: 17px;
+    text-align: center;
+  }
+}
+// End My Skill
+
+// Call to action
+.call-to-action {
+  min-height: 250px;
+  background-image: url(https://belajarkoding.com/images/overlay.svg), linear-gradient(45deg, #007bff, #006fe6);
+  background-size: cover;
+  color: #fff;
+
+  h2 {
+    padding-top: 50px;
+  }
+}
+// End Call to action
+
+// Video Favorite
+.favorite-video {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  h2 {
+    font-size: 32px;
+  }
+  h4 {
+    color: #252525;
+  }
+
+  p {
+    color: grey;
+  }
+}
+// Akhir Video Favorite
+
+// Footer
+footer {
+  padding-top: 60px;
+  background-color: rgb(41, 41, 41);
+
+  hr {
+    color: rgb(255, 255, 255);
+  }
+
+  h4 {
+    color: grey;
+  }
+
+  p {
+    color: rgb(107, 107, 107);
+  }
+}
+.item-footer ul li a,
+p a {
+  text-decoration: none;
+  color: rgb(107, 107, 107);
+}
+// End Footer
+
+// Artikel
+.article {
+  margin-top: -90px;
+}
+.article a {
+  text-decoration: none;
+  color: rgba(34, 41, 47, 0.5);
+}
+
+.article h5 {
+  font-size: 25px;
+  color: rgb(49, 49, 49);
+}
+
+.article-hover {
+  transition: transform 0.2;
+}
+
+.article-hover:hover {
+  transform: scale(1.03);
+  z-index: 1;
+}
+
+// ABoutme
+.aboutme {
+  padding-top: 90px;
+
+  img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: grey;
+  }
+}
+
+.card-body a i {
+  size: 100px;
+}
+// End Aboutme
+
+// rasakan sensasi
+.content-article {
+  h2 {
+    font-size: 25px;
+    color: rgb(49, 49, 49);
+    font-weight: 700;
+  }
+  img {
+    margin-top: 30px;
+  }
+
+  p {
+    font-size: 18px;
+    color: #717171;
+    margin-top: 40px;
+  }
+}
+
+.sumber {
+  font-weight: 700;
+}
+// Akhir rasakan sensasi
+
+// Desktop Version - Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link {
+    color: #fff !important;
+  }
+
+  .jumbotron {
+    margin-top: -75px;
+    height: 520px;
+
+    h1 {
+      padding-top: 170px;
+      font-size: 53px;
+    }
+  }
+
+  // Jumbotron Article
+  .jumbotron-article {
+    margin-top: -75px;
+    height: 300px;
+
+    h1 {
+      padding-top: 100px;
+      font-size: 53px;
+    }
+  }
+
+  .wafe-article {
+    margin-top: 50px;
+  }
+
+  // Akhir Jumbotron Articel
+
+  .wave {
+    margin-top: 120px;
+  }
+
+  // My Skill
+  .myskill {
+    min-height: 500px;
+    padding-top: 70px;
+
+    h4 {
+      font-size: 20px;
+    }
+
+    img {
+      width: 150px;
+      margin-bottom: 10px;
+    }
+
+    .item-skill {
+      margin-bottom: 5px;
+    }
+
+    p {
+      color: grey;
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+  }
+  // End My Skill
+
+  .adaptable {
+    margin-top: 40px;
+
+    h3 {
+      font-size: 35px;
+      font-weight: 700;
+      color: #252525;
+      margin-top: 150px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: grey;
+    }
+  }
+
+  // Section Era Digital
+  .eradigital {
+    margin-top: 120px;
+
+    h3 {
+      font-size: 35px;
+      font-weight: 700;
+      color: #252525;
+      margin-top: 140px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: grey;
+      font-size: 18px;
+    }
+  }
+  // End Section Era Digital
+
+  // Call to action
+  .call-to-action {
+    min-height: 250px;
+    background-image: url(https://belajarkoding.com/images/overlay.svg), linear-gradient(45deg, #007bff, #006fe6);
+    background-size: cover;
+    color: #fff;
+
+    h2 {
+      padding-top: 65px;
+    }
+  }
+  // End Call to action
+
+  // Video Favorite
+  .favorite-video {
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    h4 {
+      color: #252525;
+    }
+
+    p {
+      color: grey;
+    }
+  }
+  // Akhir Video Favorite
+
+  // ABoutme
+  .aboutme {
+    padding-top: 90px;
+
+    img {
+      border-radius: 10px;
+      margin-bottom: 80px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-top: 30px;
+    }
+  }
+
+  // End Aboutme
+
+  // rasakan sensasi
+  .content-article {
+    h2 {
+      font-size: 35px;
+      color: rgb(49, 49, 49);
+      font-weight: 700;
+    }
+    img {
+      margin-top: 30px;
+    }
+
+    p {
+      font-size: 18px;
+      color: grey;
+      margin-top: 40px;
+    }
+  }
+  // Akhir rasakan sensasi
+}
