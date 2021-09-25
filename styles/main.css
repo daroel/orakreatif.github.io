@@ -290,6 +290,17 @@ p a {
   font-weight: 700;
 }
 
+.socialmedia {
+  width: 70px;
+  height: 70px;
+  color: grey;
+  padding-right: 15px;
+}
+
+.socialmedia :hover {
+  color: #0069da;
+}
+
 @media (min-width: 992px) {
   .navbar-brand,
   .nav-link {

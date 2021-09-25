@@ -307,6 +307,20 @@ p a {
 }
 // Akhir rasakan sensasi
 
+// Social media di about me
+.socialmedia {
+  width: 70px;
+  height: 70px;
+  color: grey;
+  padding-right: 15px;
+
+  :hover {
+    color: #0069da;
+  }
+}
+
+// End social media di about me
+
 // Desktop Version - Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .navbar-brand,
