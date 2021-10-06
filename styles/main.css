@@ -34,6 +34,18 @@
   font-size: 22px;
 }
 
+.first-action {
+  padding-top: 100px;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.first-action h3 {
+  font-weight: bolder;
+  font-size: 25px;
+}
+
 .jumbotron-article {
   background-image: url(https://belajarkoding.com/images/overlay.svg), linear-gradient(45deg, #007bff, #006fe6);
   background-size: cover;
@@ -49,7 +61,7 @@
 }
 
 .wave {
-  margin-top: 150px;
+  margin-top: 60px;
 }
 
 svg.wave {
@@ -308,11 +320,22 @@ p a {
   }
   .jumbotron {
     margin-top: -75px;
-    height: 520px;
+    height: 570px;
   }
   .jumbotron h1 {
     padding-top: 170px;
     font-size: 53px;
+  }
+  .first-action {
+    padding-top: 145px;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    padding-left: 140px;
+  }
+  .first-action h3 {
+    font-weight: bolder;
+    font-size: 30px;
   }
   .jumbotron-article {
     margin-top: -75px;
@@ -326,7 +349,7 @@ p a {
     margin-top: 50px;
   }
   .wave {
-    margin-top: 120px;
+    margin-top: 110px;
   }
   .myskill {
     min-height: 500px;
@@ -416,6 +439,12 @@ p a {
     font-size: 18px;
     color: grey;
     margin-top: 40px;
+  }
+}
+
+@media (max-width: 996px) {
+  .second-action {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */

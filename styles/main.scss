@@ -41,6 +41,17 @@
   }
 }
 
+// new edit
+.first-action {
+  padding-top: 100px;
+  justify-content: center !important;
+  // padding-left: 180px;
+  h3 {
+    font-weight: bolder;
+    font-size: 25px;
+  }
+}
+
 // Jumbotron-artikel
 .jumbotron-article {
   background-image: url(https://belajarkoding.com/images/overlay.svg), linear-gradient(45deg, #007bff, #006fe6);
@@ -58,7 +69,7 @@
 // Akhir Jumbotron artikel
 // css waves
 .wave {
-  margin-top: 150px;
+  margin-top: 60px;
 }
 svg.wave {
   position: relative;
@@ -132,6 +143,11 @@ svg.wafe-article {
     color: grey;
     font-size: 18px;
   }
+
+  // img {
+  //   height: 230px;
+  //   vertical-align: middle;
+  // }
 }
 // End Section Era Digital
 
@@ -330,11 +346,23 @@ p a {
 
   .jumbotron {
     margin-top: -75px;
-    height: 520px;
+    height: 570px;
 
     h1 {
       padding-top: 170px;
       font-size: 53px;
+    }
+  }
+
+  // new edit
+  .first-action {
+    padding-top: 145px;
+    justify-content: center !important;
+    padding-left: 140px;
+
+    h3 {
+      font-weight: bolder;
+      font-size: 30px;
     }
   }
 
@@ -356,7 +384,7 @@ p a {
   // Akhir Jumbotron Articel
 
   .wave {
-    margin-top: 120px;
+    margin-top: 110px;
   }
 
   // My Skill
@@ -483,4 +511,10 @@ p a {
     }
   }
   // Akhir rasakan sensasi
+}
+// Edi new jumbotron
+@media (max-width: 996px) {
+  .second-action {
+    display: none;
+  }
 }
