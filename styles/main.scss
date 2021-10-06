@@ -518,3 +518,33 @@ p a {
     display: none;
   }
 }
+
+@media (max-width: 991px) {
+  .wave {
+    margin-top: 130px;
+  }
+}
+
+@media (max-width: 990px) {
+  .wave {
+    margin-top: 130px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wave {
+    margin-top: 105px;
+  }
+}
+
+@media (max-width: 503px) {
+  .wave {
+    margin-top: 85px;
+  }
+}
+
+@media (max-width: 375px) {
+  .wave {
+    margin-top: 60px;
+  }
+}
