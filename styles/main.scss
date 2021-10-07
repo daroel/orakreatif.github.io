@@ -338,6 +338,18 @@ p a {
 // End social media di about me
 
 // Desktop Version - Large devices (desktops, 992px and up)
+@media (min-width: 1399px) {
+  .first-action {
+    padding-top: 165px;
+    justify-content: center !important;
+    padding-left: 140px;
+
+    h3 {
+      font-weight: bolder;
+      font-size: 40px !important;
+    }
+  }
+}
 
 @media (min-width: 992px) {
   .navbar-brand,

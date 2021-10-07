@@ -313,6 +313,20 @@ p a {
   color: #0069da;
 }
 
+@media (min-width: 1399px) {
+  .first-action {
+    padding-top: 165px;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    padding-left: 140px;
+  }
+  .first-action h3 {
+    font-weight: bolder;
+    font-size: 40px !important;
+  }
+}
+
 @media (min-width: 992px) {
   .navbar-brand,
   .nav-link {
